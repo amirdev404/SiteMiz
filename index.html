@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ── SEO Primary ── -->
+  <title>Sitemiz | طراحی سایت حرفه‌ای در ایران — Frontend Studio</title>
+  <meta name="description"
+        content="Sitemiz یک استودیو طراحی سایت حرفه‌ای در ایران است. طراحی وب‌سایت اختصاصی، UI/UX، فرانت‌اند با React و Next.js. تماس: 09367091011">
+  <meta name="keywords"
+        content="طراحی سایت, طراحی وب‌سایت حرفه‌ای, فرانت‌اند, UI UX, React, Next.js, طراحی سایت در ایران, Sitemiz, web design Iran, frontend studio, طراحی رابط کاربری, توسعه فرانت اند">
+  <meta name="author"  content="Sitemiz — amirdev404">
+  <meta name="robots"  content="index, follow">
+  <meta name="geo.region"    content="IR">
+  <meta name="geo.placename" content="Iran">
+  <link rel="canonical" href="https://sitemiz.ir/">
+
+  <!-- ── Open Graph ── -->
+  <meta property="og:title"       content="Sitemiz | طراحی سایت حرفه‌ای — Frontend Studio">
+  <meta property="og:description" content="استودیو طراحی سایت حرفه‌ای. وب‌سایت‌های زیبا، سریع و بهینه برای کسب‌وکار شما.">
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://sitemiz.ir/">
+  <meta property="og:image"       content="https://sitemiz.ir/og-image.png">
+  <meta property="og:locale"          content="fa_IR">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:site_name"   content="Sitemiz">
+
+  <!-- ── Twitter Card ── -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:site"        content="@amirdev404">
+  <meta name="twitter:title"       content="Sitemiz | طراحی سایت حرفه‌ای">
+  <meta name="twitter:description" content="استودیو طراحی سایت حرفه‌ای در ایران. زیبا، سریع، دقیق.">
+  <meta name="twitter:image"       content="https://sitemiz.ir/og-image.png">
+
+  <!-- ── Favicon SVG ── -->
+  <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230A0A0F'/%3E%3Ctext x='4' y='24' font-family='serif' font-weight='900' font-size='22' fill='%23C9A84C'%3ES%3C/text%3E%3C/svg%3E">
+
+  <!-- ── Google Fonts ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&family=Vazirmatn:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+  <!-- ── Stylesheet ── -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- ── Schema.org: Business ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Sitemiz",
+    "description": "استودیو طراحی سایت حرفه‌ای — طراحی وب، UI/UX، فرانت‌اند",
+    "url": "https://sitemiz.ir",
+    "email": "info@sitemiz.ir",
+    "telephone": "+989367091011",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "IR"
+    },
+    "sameAs": [
+      "https://github.com/amirdev404",
+      "https://t.me/amirf404",
+      "https://instagram.com/amirdev404"
+    ],
+    "serviceType": "Web Design & Frontend Development",
+    "priceRange": "توافقی"
+  }
+  </script>
+
+  <!-- ── Schema.org: Blog ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Sitemiz Blog",
+    "url": "https://sitemiz.ir/#blog",
+    "description": "مقالات و راهنماهای طراحی سایت، فرانت‌اند، سئو و عملکرد وب",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Sitemiz",
+      "url": "https://sitemiz.ir"
+    },
+    "blogPost": [
+      {
+        "@type": "BlogPosting",
+        "headline": "Why Your Website's Speed Is Costing You Customers",
+        "datePublished": "2026-05-20",
+        "author": { "@type": "Person", "name": "Amir F." },
+        "description": "A 1-second delay in page load can drop conversions by 7%."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "RTL Design: The Complete Guide for Persian & Arabic Websites",
+        "datePublished": "2026-04-12",
+        "author": { "@type": "Person", "name": "Sara K." },
+        "description": "Building for right-to-left languages is more than flipping a direction."
+      },
+      {
+        "@type": "BlogPosting",
+        "headline": "Core Web Vitals in 2026: What Actually Matters for SEO",
+        "datePublished": "2026-03-05",
+        "author": { "@type": "Person", "name": "Mehdi R." },
+        "description": "Google's ranking signals keep evolving."
+      }
+    ]
+  }
+  </script>
+
+  <!-- ── Schema.org: FAQ ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How long does a website project take?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A landing page typically takes 1–2 weeks. A full multi-page website takes 3–6 weeks. Complex apps or e-commerce can take 2–4 months."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you work with clients outside Iran?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We work remotely with clients worldwide via email, Telegram, or video call."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is pricing determined?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Pricing is based on your goals, complexity, timeline, and required features. We discuss everything upfront with full transparency."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Will my website be mobile-friendly?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Always. Every website we build is fully responsive and tested across all major screen sizes and devices."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you offer support after launch?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Every project includes 30 days of free support, plus optional monthly retainer plans."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can you improve my existing website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We offer performance audits, redesigns, and partial improvements for existing websites."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ══════════════════════════════════
+       UTILITIES
+  ══════════════════════════════════ -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="loader-logo">Site<span>miz</span></div>
+    <div class="loader-bar-wrap">
+      <div class="loader-bar"></div>
+    </div>
+    <div class="loader-pct" id="loaderPct">0%</div>
+  </div>
+
+  <!-- 404 -->
+  <div id="page404">
+    <div class="err-num">404</div>
+    <h2 class="err-title" data-en="Page Not Found" data-fa="صفحه پیدا نشد">Page Not Found</h2>
+    <p  class="err-sub"
+        data-en="The page you're looking for doesn't exist or has been moved."
+        data-fa="صفحه‌ای که دنبالش هستید وجود ندارد یا منتقل شده است.">
+      The page you're looking for doesn't exist or has been moved.
+    </p>
+    <a href="#home"
+       class="btn-primary"
+       onclick="document.getElementById('page404').classList.remove('show')"
+       data-en="Back to Home"
+       data-fa="بازگشت به خانه">
+      Back to Home
+    </a>
+  </div>
+
+  <!-- Scroll to top -->
+  <button id="scrollTop"
+          onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
+          title="Back to top">↑</button>
+
+  <!-- ══════════════════════════════════
+       NAV
+  ══════════════════════════════════ -->
+  <nav id="mainNav">
+    <div class="nav-logo">Site<span>miz</span></div>
+
+    <div class="nav-links">
+      <a href="#services" data-en="Services"     data-fa="خدمات">Services</a>
+      <a href="#portfolio" data-en="Work"         data-fa="نمونه‌کارها">Work</a>
+      <a href="#blog"      data-en="Blog"         data-fa="بلاگ">Blog</a>
+      <a href="#about"     data-en="About"        data-fa="درباره ما">About</a>
+      <a href="#contact"   data-en="Contact"      data-fa="تماس">Contact</a>
+    </div>
+
+    <div class="lang-toggle">
+      <button class="lang-btn active" onclick="setLang('en')">EN</button>
+      <button class="lang-btn"        onclick="setLang('fa')">FA</button>
+    </div>
+  </nav>
+
+  <!-- ══════════════════════════════════
+       HERO
+  ══════════════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-line"></div>
+
+    <div class="hero-eyebrow"
+         data-en="Frontend Studio — Est. 2019"
+         data-fa="استودیو فرانت‌اند — از ۱۳۹۸">
+      Frontend Studio — Est. 2019
+    </div>
+
+    <h1 class="font-display">
+      <span data-en="We craft"              data-fa="ما">We craft</span><br>
+      <em class="gold">
+        <span data-en="digital"             data-fa="تجربه‌های دیجیتال">digital</span>
+      </em><br>
+      <span data-en="experiences."          data-fa="می‌سازیم.">experiences.</span>
+    </h1>
+
+    <p class="hero-sub"
+       data-en="We turn ideas into websites that work as good as they look — fast, purposeful, and built to grow your business."
+       data-fa="ایده‌های شما را به وب‌سایت‌هایی تبدیل می‌کنیم که به همان اندازه که زیبا هستند، خوب کار می‌کنند — سریع، هدفمند و طراحی‌شده برای رشد کسب‌وکار شما.">
+      We turn ideas into websites that work as good as they look — fast, purposeful, and built to grow your business.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#portfolio" class="btn-primary" data-en="See Our Work"  data-fa="نمونه‌کارها">See Our Work</a>
+      <a href="#contact"   class="btn-ghost"   data-en="Get in Touch"  data-fa="تماس با ما">Get in Touch</a>
+    </div>
+
+    <div class="hero-stats">
+      <div class="stat">
+        <span class="stat-num">94+</span>
+        <div class="stat-label" data-en="Projects" data-fa="پروژه">Projects</div>
+      </div>
+      <div class="stat">
+        <span class="stat-num">5★</span>
+        <div class="stat-label" data-en="Rating" data-fa="امتیاز">Rating</div>
+      </div>
+      <div class="stat">
+        <span class="stat-num">7yr</span>
+        <div class="stat-label" data-en="Experience" data-fa="تجربه">Experience</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       MARQUEE
+  ══════════════════════════════════ -->
+  <div class="marquee-section">
+    <div class="marquee-track" id="marqueeTrack">
+      <div class="marquee-item"><span class="marquee-dot"></span><span data-en="React &amp; Next.js"        data-fa="ری‌اکت و Next.js">React &amp; Next.js</span></div>
+      <div class="marquee-item"><span class="marquee-dot"></span><span data-en="UI / UX Design"             data-fa="طراحی UI / UX">UI / UX Design</span></div>
+      <div class="marquee-item"><span class="marquee-dot"></span><span data-en="Web Animation"              data-fa="انیمیشن وب">Web Animation</span></div>
+      <div class="marquee-item"><span class="marquee-dot"></span><span data-en="Performance Optimization"   data-fa="بهینه‌سازی عملکرد">Performance Optimization</span></div>
+      <div class="marquee-item"><span class="marquee-dot"></span><span data-en="Design Systems"             data-fa="سیستم طراحی">Design Systems</span></div>
+      <div class="marquee-item"><span class="marquee-dot"></span><span data-en="E-commerce"                 data-fa="فروشگاه آنلاین">E-commerce</span></div>
+      <!-- duplicate for infinite loop -->
+      <div class="marquee-item"><span class="marquee-dot"></span><span data-en="React &amp; Next.js"        data-fa="ری‌اکت و Next.js">React &amp; Next.js</span></div>
+      <div class="marquee-item"><span class="marquee-dot"></span><span data-en="UI / UX Design"             data-fa="طراحی UI / UX">UI / UX Design</span></div>
+      <div class="marquee-item"><span class="marquee-dot"></span><span data-en="Web Animation"              data-fa="انیمیشن وب">Web Animation</span></div>
+      <div class="marquee-item"><span class="marquee-dot"></span><span data-en="Performance Optimization"   data-fa="بهینه‌سازی عملکرد">Performance Optimization</span></div>
+      <div class="marquee-item"><span class="marquee-dot"></span><span data-en="Design Systems"             data-fa="سیستم طراحی">Design Systems</span></div>
+      <div class="marquee-item"><span class="marquee-dot"></span><span data-en="E-commerce"                 data-fa="فروشگاه آنلاین">E-commerce</span></div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════
+       SERVICES
+  ══════════════════════════════════ -->
+  <section id="services">
+    <div class="reveal">
+      <div class="section-eyebrow" data-en="What We Do" data-fa="چه می‌کنیم">What We Do</div>
+      <h2 class="section-title font-display"
+          data-en="Crafted for the digital age."
+          data-fa="ساخته‌شده برای عصر دیجیتال.">Crafted for the digital age.</h2>
+      <p class="section-sub"
+         data-en="From concept to deployment — every pixel, every interaction, every millisecond counts."
+         data-fa="از ایده تا انتشار — هر پیکسل، هر تعامل، هر میلی‌ثانیه اهمیت دارد.">
+        From concept to deployment — every pixel, every interaction, every millisecond counts.
+      </p>
+    </div>
+
+    <div class="services-grid reveal">
+      <div class="service-card">
+        <div class="service-num">01</div>
+        <div class="service-name" data-en="UI / UX Design"        data-fa="طراحی رابط کاربری">UI / UX Design</div>
+        <p   class="service-desc"
+             data-en="Interfaces that feel inevitable. We design with clarity, intention, and a deep understanding of your users' mental models."
+             data-fa="رابط‌هایی که حس طبیعی دارند. با وضوح، هدفمندی و درک عمیق از مدل ذهنی کاربران طراحی می‌کنیم.">
+          Interfaces that feel inevitable. We design with clarity, intention, and a deep understanding of your users' mental models.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">02</div>
+        <div class="service-name" data-en="Frontend Development"  data-fa="توسعه فرانت‌اند">Frontend Development</div>
+        <p   class="service-desc"
+             data-en="Pixel-perfect builds with React, Next.js, and modern CSS. Accessible, performant, and built to last."
+             data-fa="کدنویسی دقیق با React، Next.js و CSS مدرن. قابل دسترس، پرسرعت و ماندگار.">
+          Pixel-perfect builds with React, Next.js, and modern CSS. Accessible, performant, and built to last.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">03</div>
+        <div class="service-name" data-en="Motion &amp; Animation" data-fa="موشن و انیمیشن">Motion &amp; Animation</div>
+        <p   class="service-desc"
+             data-en="Animation that serves the experience — scroll sequences, micro-interactions, and page choreography."
+             data-fa="انیمیشنی که به تجربه خدمت می‌کند — توالی اسکرول، میکرو‌اینتراکشن‌ها و کوریوگرافی صفحه.">
+          Animation that serves the experience — scroll sequences, micro-interactions, and page choreography.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">04</div>
+        <div class="service-name" data-en="Performance Audit"     data-fa="ممیزی عملکرد">Performance Audit</div>
+        <p   class="service-desc"
+             data-en="Core Web Vitals at 95+. We audit, optimize, and monitor. Speed is not a feature — it's the product."
+             data-fa="Core Web Vitals در ۹۵+. ممیزی، بهینه‌سازی و مانیتورینگ. سرعت یک ویژگی نیست — خود محصول است.">
+          Core Web Vitals at 95+. We audit, optimize, and monitor. Speed is not a feature — it's the product.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">05</div>
+        <div class="service-name" data-en="Design Systems"        data-fa="سیستم طراحی">Design Systems</div>
+        <p   class="service-desc"
+             data-en="Scalable component libraries that grow with your product. Figma-to-code with full documentation and token architecture."
+             data-fa="کتابخانه‌های کامپوننت مقیاس‌پذیر که با محصول شما رشد می‌کنند. از Figma به کد با مستندات کامل.">
+          Scalable component libraries that grow with your product. Figma-to-code with full documentation and token architecture.
+        </p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">06</div>
+        <div class="service-name" data-en="E-commerce"            data-fa="فروشگاه آنلاین">E-commerce</div>
+        <p   class="service-desc"
+             data-en="Conversion-focused storefronts on Shopify, custom builds, or headless CMS. Every checkout is designed to close."
+             data-fa="فروشگاه‌های متمرکز بر تبدیل روی Shopify، توسعه سفارشی یا CMS بی‌سر. هر پرداخت برای تکمیل طراحی شده.">
+          Conversion-focused storefronts on Shopify, custom builds, or headless CMS. Every checkout is designed to close.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       PORTFOLIO
+  ══════════════════════════════════ -->
+  <section id="portfolio" style="background:var(--dark);">
+    <div class="reveal">
+      <div class="section-eyebrow" data-en="Selected Work"        data-fa="نمونه‌کارهای برگزیده">Selected Work</div>
+      <h2 class="section-title font-display"
+          data-en="Projects we're proud of."
+          data-fa="پروژه‌هایی که به آن‌ها افتخار می‌کنیم.">Projects we're proud of.</h2>
+
+      <div class="portfolio-filters">
+        <button class="pf-btn active" data-filter="all"       data-en="All"        data-fa="همه"         onclick="filterPortfolio(this,'all')">All</button>
+        <button class="pf-btn"        data-filter="ecommerce" data-en="E-commerce" data-fa="فروشگاه"     onclick="filterPortfolio(this,'ecommerce')">E-commerce</button>
+        <button class="pf-btn"        data-filter="saas"      data-en="SaaS"       data-fa="SaaS"        onclick="filterPortfolio(this,'saas')">SaaS</button>
+        <button class="pf-btn"        data-filter="brand"     data-en="Brand"      data-fa="برند"        onclick="filterPortfolio(this,'brand')">Brand &amp; Web</button>
+        <button class="pf-btn"        data-filter="motion"    data-en="Motion"     data-fa="موشن"        onclick="filterPortfolio(this,'motion')">Motion</button>
+      </div>
+    </div>
+
+    <div class="portfolio-grid reveal" id="portfolioGrid">
+      <div class="portfolio-item" data-category="ecommerce">
+        <div class="portfolio-bg p1"></div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-cat"  data-en="E-commerce / Next.js" data-fa="فروشگاه آنلاین / Next.js">E-commerce / Next.js</div>
+          <div class="portfolio-name font-display" data-en="Luxe Atelier"  data-fa="لوکس آتلیه">Luxe Atelier</div>
+          <div class="portfolio-arrow">→</div>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="saas">
+        <div class="portfolio-bg p2"></div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-cat"  data-en="SaaS Dashboard"        data-fa="داشبورد SaaS">SaaS Dashboard</div>
+          <div class="portfolio-name font-display" data-en="Dataflow Pro"  data-fa="دیتافلو پرو">Dataflow Pro</div>
+          <div class="portfolio-arrow">→</div>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="brand">
+        <div class="portfolio-bg p3"></div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-cat"  data-en="Brand &amp; Web"       data-fa="برند و وب">Brand &amp; Web</div>
+          <div class="portfolio-name font-display" data-en="Ember Studio"  data-fa="استودیو امبر">Ember Studio</div>
+          <div class="portfolio-arrow">→</div>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="motion">
+        <div class="portfolio-bg p4"></div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-cat"  data-en="Motion / GSAP"         data-fa="موشن / GSAP">Motion / GSAP</div>
+          <div class="portfolio-name font-display" data-en="Verdant Labs"  data-fa="ورداند لبز">Verdant Labs</div>
+          <div class="portfolio-arrow">→</div>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="ecommerce">
+        <div class="portfolio-bg" style="background:linear-gradient(135deg,#1a0a1a,#2d002d);"></div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-cat"  data-en="E-commerce / Shopify"  data-fa="فروشگاه / Shopify">E-commerce / Shopify</div>
+          <div class="portfolio-name font-display" data-en="Velvet Shop"   data-fa="ولوت شاپ">Velvet Shop</div>
+          <div class="portfolio-arrow">→</div>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="brand">
+        <div class="portfolio-bg" style="background:linear-gradient(135deg,#0a1a1a,#002d2d);"></div>
+        <div class="portfolio-overlay">
+          <div class="portfolio-cat"  data-en="Brand Identity"         data-fa="هویت برند">Brand Identity</div>
+          <div class="portfolio-name font-display" data-en="Oceanic Co."   data-fa="اوشنیک کو">Oceanic Co.</div>
+          <div class="portfolio-arrow">→</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       ABOUT
+  ══════════════════════════════════ -->
+  <section id="about">
+    <div class="about reveal">
+      <div class="about-visual">
+        <div class="about-card about-card-main">
+          <div class="about-badge">
+            <span class="about-badge-num">7+</span>
+            <span class="about-badge-txt" data-en="Years" data-fa="سال">Years</span>
+          </div>
+          <p class="about-quote font-display"
+             data-en='"Good design is how a product works, not just how it looks."'
+             data-fa="طراحی خوب نحوه کارکرد یک محصول است، نه فقط ظاهر آن.">
+            "Good design is how a product works, not just how it looks."
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <div class="section-eyebrow" data-en="Our Story"    data-fa="داستان ما">Our Story</div>
+        <h2 class="section-title font-display"
+            data-en="Built on craft, driven by results."
+            data-fa="بر پایه هنر، با تمرکز بر نتایج.">Built on craft, driven by results.</h2>
+        <p class="section-sub"
+           data-en="We started Sitemiz with one belief: a website should do more than look good — it should bring you clients. Every site we build is a growth engine for your business."
+           data-fa="Sitemiz را با یک باور شروع کردیم: یک وب‌سایت باید بیشتر از زیبایی داشته باشد — باید برایت مشتری بیاورد. هر سایتی که می‌سازیم، یک موتور رشد برای کسب‌وکار شماست.">
+          We started Sitemiz with one belief: a website should do more than look good — it should bring you clients. Every site we build is a growth engine for your business.
+        </p>
+
+        <div class="about-list">
+          <div class="about-list-item">
+            <div class="about-icon">⚡</div>
+            <div>
+              <div class="about-item-title" data-en="Performance-first" data-fa="عملکرد اول">Performance-first</div>
+              <p   class="about-item-desc"
+                   data-en="Every project ships with Lighthouse scores above 90 across all categories."
+                   data-fa="هر پروژه با امتیازات Lighthouse بالای ۹۰ در تمام دسته‌بندی‌ها ارائه می‌شود.">
+                Every project ships with Lighthouse scores above 90 across all categories.
+              </p>
+            </div>
+          </div>
+          <div class="about-list-item">
+            <div class="about-icon">🎯</div>
+            <div>
+              <div class="about-item-title" data-en="Precision execution" data-fa="اجرای دقیق">Precision execution</div>
+              <p   class="about-item-desc"
+                   data-en="We follow a rigorous design-to-dev handoff process with zero ambiguity."
+                   data-fa="ما یک فرآیند دقیق از طراحی تا توسعه را بدون هیچ ابهامی دنبال می‌کنیم.">
+                We follow a rigorous design-to-dev handoff process with zero ambiguity.
+              </p>
+            </div>
+          </div>
+          <div class="about-list-item">
+            <div class="about-icon">🌐</div>
+            <div>
+              <div class="about-item-title" data-en="Bilingual by design" data-fa="دوزبانه از طراحی">Bilingual by design</div>
+              <p   class="about-item-desc"
+                   data-en="RTL/LTR expertise means your product works beautifully for every language and culture."
+                   data-fa="تخصص RTL/LTR به این معناست که محصول شما برای هر زبان و فرهنگی به زیبایی کار می‌کند.">
+                RTL/LTR expertise means your product works beautifully for every language and culture.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       TEAM
+  ══════════════════════════════════ -->
+  <section id="team" style="background:var(--dark);border-top:1px solid var(--border);">
+    <div class="reveal" style="text-align:center;max-width:560px;margin:0 auto 72px;">
+      <div class="section-eyebrow" data-en="The Team"  data-fa="تیم ما">The Team</div>
+      <h2 class="section-title font-display" style="margin:0 auto 16px;"
+          data-en="Real people. Real craft."
+          data-fa="آدم‌های واقعی. مهارت واقعی.">Real people. Real craft.</h2>
+      <p class="section-sub" style="margin:0 auto;"
+         data-en="Small team, big output. Every project gets our full attention — no juniors, no outsourcing."
+         data-fa="تیم کوچک، خروجی بزرگ. هر پروژه توجه کامل ما را می‌گیرد — بدون جونیور، بدون برون‌سپاری.">
+        Small team, big output. Every project gets our full attention — no juniors, no outsourcing.
+      </p>
+    </div>
+
+    <div class="team-grid reveal">
+      <!-- Amir -->
+      <div class="team-card">
+        <div class="team-avatar" style="background:linear-gradient(135deg,#1a1a30,#2a2a50);">
+          <span class="team-avatar-letter">A</span>
+          <div  class="team-avatar-ring"></div>
+        </div>
+        <div class="team-info">
+          <div class="team-name">Amir F.</div>
+          <div class="team-role" data-en="Founder &amp; Frontend Lead" data-fa="بنیان‌گذار و فرانت‌اند لید">Founder &amp; Frontend Lead</div>
+          <p   class="team-bio"
+               data-en="7+ years turning Figma files into pixel-perfect, blazing-fast web experiences. Obsessed with performance and clean code."
+               data-fa="بیش از ۷ سال تبدیل فایل‌های Figma به تجربه‌های وب دقیق و سریع. دیوانه عملکرد و کد تمیز.">
+            7+ years turning Figma files into pixel-perfect, blazing-fast web experiences. Obsessed with performance and clean code.
+          </p>
+          <div class="team-skills">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">GSAP</span>
+            <span class="skill-tag">Figma</span>
+          </div>
+          <div class="team-socials">
+            <a href="https://github.com/amirdev404"   target="_blank" class="social-link" title="GitHub">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a href="https://t.me/amirf404"          target="_blank" class="social-link" title="Telegram">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.16 13.67l-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.834.948l-.846-.059z"/></svg>
+            </a>
+            <a href="https://instagram.com/amirdev404" target="_blank" class="social-link" title="Instagram">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sara -->
+      <div class="team-card">
+        <div class="team-avatar" style="background:linear-gradient(135deg,#1a2a1a,#0a3a0a);">
+          <span class="team-avatar-letter">S</span>
+          <div  class="team-avatar-ring"></div>
+        </div>
+        <div class="team-info">
+          <div class="team-name">Sara K.</div>
+          <div class="team-role" data-en="UI/UX Designer" data-fa="طراح UI/UX">UI/UX Designer</div>
+          <p   class="team-bio"
+               data-en="Translates complex user needs into elegant, intuitive interfaces. Figma wizard with a love for motion and micro-interactions."
+               data-fa="نیازهای پیچیده کاربر را به رابط‌های ظریف و شهودی تبدیل می‌کند. متخصص Figma با عشق به موشن.">
+            Translates complex user needs into elegant, intuitive interfaces. Figma wizard with a love for motion and micro-interactions.
+          </p>
+          <div class="team-skills">
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">UI Design</span>
+            <span class="skill-tag">Prototyping</span>
+            <span class="skill-tag">Motion</span>
+          </div>
+          <div class="team-socials">
+            <a href="https://linkedin.com/company/sitemiz" target="_blank" class="social-link" title="LinkedIn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mehdi -->
+      <div class="team-card">
+        <div class="team-avatar" style="background:linear-gradient(135deg,#2a1a1a,#3a0a0a);">
+          <span class="team-avatar-letter">M</span>
+          <div  class="team-avatar-ring"></div>
+        </div>
+        <div class="team-info">
+          <div class="team-name">Mehdi R.</div>
+          <div class="team-role" data-en="SEO &amp; Performance" data-fa="سئو و عملکرد">SEO &amp; Performance</div>
+          <p   class="team-bio"
+               data-en="Makes sure your site ranks as well as it looks. Core Web Vitals, technical SEO, and conversion optimization."
+               data-fa="مطمئن می‌شود سایت شما نه‌تنها زیباست بلکه رتبه می‌گیرد. Core Web Vitals، سئو فنی و بهینه‌سازی تبدیل.">
+            Makes sure your site ranks as well as it looks. Core Web Vitals, technical SEO, and conversion optimization.
+          </p>
+          <div class="team-skills">
+            <span class="skill-tag">SEO</span>
+            <span class="skill-tag">Lighthouse</span>
+            <span class="skill-tag">Analytics</span>
+            <span class="skill-tag">CRO</span>
+          </div>
+          <div class="team-socials">
+            <a href="https://linkedin.com/company/sitemiz" target="_blank" class="social-link" title="LinkedIn">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       PROCESS
+  ══════════════════════════════════ -->
+  <section class="process" id="process">
+    <div class="reveal">
+      <div class="section-eyebrow" data-en="How We Work" data-fa="چطور کار می‌کنیم">How We Work</div>
+      <h2 class="section-title font-display"
+          data-en="A process built for clarity."
+          data-fa="فرآیندی ساخته‌شده برای وضوح.">A process built for clarity.</h2>
+    </div>
+    <div class="process-steps reveal">
+      <div class="process-step">
+        <div class="process-step-num">01</div>
+        <div class="process-step-title" data-en="Discovery"  data-fa="کشف">Discovery</div>
+        <p   class="process-step-desc"
+             data-en="We align on goals, audience, and success metrics before a single pixel is touched."
+             data-fa="قبل از اینکه به یک پیکسل لمس شود، اهداف، مخاطبان و معیارهای موفقیت را تنظیم می‌کنیم.">
+          We align on goals, audience, and success metrics before a single pixel is touched.
+        </p>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">02</div>
+        <div class="process-step-title" data-en="Design"     data-fa="طراحی">Design</div>
+        <p   class="process-step-desc"
+             data-en="Wireframes, visual identity, and high-fidelity prototypes — all reviewed and approved before dev begins."
+             data-fa="وایرفریم، هویت بصری و نمونه‌اولیه با وفاداری بالا — همه قبل از شروع توسعه بررسی و تایید می‌شوند.">
+          Wireframes, visual identity, and high-fidelity prototypes — all reviewed before dev begins.
+        </p>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">03</div>
+        <div class="process-step-title" data-en="Build"      data-fa="توسعه">Build</div>
+        <p   class="process-step-desc"
+             data-en="Component-first development with daily updates. You see progress every step of the way."
+             data-fa="توسعه کامپوننت‌محور با به‌روزرسانی‌های روزانه. در هر مرحله پیشرفت را می‌بینید.">
+          Component-first development with daily updates. You see progress every step of the way.
+        </p>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">04</div>
+        <div class="process-step-title" data-en="Launch"     data-fa="انتشار">Launch</div>
+        <p   class="process-step-desc"
+             data-en="QA, performance testing, and a smooth handoff — including documentation and 30-day support."
+             data-fa="QA، تست عملکرد و تحویل روان — شامل مستندات و ۳۰ روز پشتیبانی.">
+          QA, performance testing, and a smooth handoff — including documentation and 30-day support.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       TESTIMONIALS
+  ══════════════════════════════════ -->
+  <section id="testimonials">
+    <div class="reveal">
+      <div class="section-eyebrow" data-en="Client Voices"          data-fa="صدای مشتریان">Client Voices</div>
+      <h2 class="section-title font-display"
+          data-en="Trusted by ambitious teams."
+          data-fa="مورد اعتماد تیم‌های بلندپرواز.">Trusted by ambitious teams.</h2>
+    </div>
+    <div class="testimonials-grid reveal">
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text"
+           data-en='"Sitemiz delivered something we didn't know was possible within our budget. The attention to detail is exceptional."'
+           data-fa="Sitemiz چیزی تحویل داد که نمی‌دانستیم در بودجه ما ممکن است. توجه به جزئیات استثنایی است.">
+          "Sitemiz delivered something we didn't know was possible within our budget. The attention to detail is exceptional."
+        </p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">S</div>
+          <div>
+            <div class="testimonial-name">Sarah M.</div>
+            <div class="testimonial-role">CPO, Luminary SaaS</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text"
+           data-en='"The bilingual capability was exactly what we needed for our Middle East expansion. RTL perfect, performance perfect."'
+           data-fa="قابلیت دوزبانه دقیقاً همان چیزی بود که برای گسترش به خاورمیانه نیاز داشتیم. RTL عالی، عملکرد عالی.">
+          "The bilingual capability was exactly what we needed for our Middle East expansion. RTL perfect, performance perfect."
+        </p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">K</div>
+          <div>
+            <div class="testimonial-name">Karim A.</div>
+            <div class="testimonial-role">CEO, Marhaba Commerce</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text"
+           data-en='"Our Lighthouse score went from 54 to 97 in two weeks. That is not a typo. Our conversion rate followed. Hire them."'
+           data-fa="امتیاز Lighthouse ما در دو هفته از ۵۴ به ۹۷ رسید. این اشتباه تایپی نیست. نرخ تبدیل ما هم تبعیت کرد.">
+          "Our Lighthouse score went from 54 to 97 in two weeks. That is not a typo. Our conversion rate followed. Hire them."
+        </p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">J</div>
+          <div>
+            <div class="testimonial-name">James R.</div>
+            <div class="testimonial-role">Founder, Ember Studio</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       BLOG
+  ══════════════════════════════════ -->
+  <section id="blog" style="background:var(--dark);border-top:1px solid var(--border);">
+    <div class="reveal" style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px;margin-bottom:64px;">
+      <div>
+        <div class="section-eyebrow" data-en="From the Studio" data-fa="از استودیو">From the Studio</div>
+        <h2 class="section-title font-display" style="margin-bottom:0;"
+            data-en="Insights &amp; articles."
+            data-fa="مقالات و نکات.">Insights &amp; articles.</h2>
+      </div>
+      <a href="#blog" class="btn-ghost" style="white-space:nowrap;"
+         data-en="All Articles →" data-fa="← همه مقالات">All Articles →</a>
+    </div>
+    <div class="blog-grid reveal">
+      <article class="blog-card blog-card--featured" itemscope itemtype="https://schema.org/BlogPosting">
+        <div class="blog-card-bg" style="background:linear-gradient(135deg,#0f1a2e,#1a2a4a);"></div>
+        <div class="blog-card-content">
+          <div class="blog-meta">
+            <span class="blog-cat"  data-en="Performance" data-fa="عملکرد">Performance</span>
+            <span class="blog-date" itemprop="datePublished" datetime="2026-05-20"
+                  data-en="May 20, 2026" data-fa="۳۰ اردیبهشت ۱۴۰۵">May 20, 2026</span>
+          </div>
+          <h3 class="blog-title font-display" itemprop="headline"
+              data-en="Why Your Website's Speed Is Costing You Customers"
+              data-fa="چرا سرعت سایت شما مشتریان را از دست می‌دهد">
+            Why Your Website's Speed Is Costing You Customers
+          </h3>
+          <p class="blog-excerpt" itemprop="description"
+             data-en="A 1-second delay in page load can drop conversions by 7%. Here's how we take sites from mediocre to blazing fast."
+             data-fa="یک ثانیه تأخیر در بارگذاری صفحه می‌تواند نرخ تبدیل را ۷٪ کاهش دهد. اینجا توضیح می‌دهیم چطور سایت‌ها را سریع می‌کنیم.">
+            A 1-second delay in page load can drop conversions by 7%. Here's how we take sites from mediocre to blazing fast.
+          </p>
+          <div class="blog-footer">
+            <div class="blog-author">
+              <div class="blog-avatar">A</div>
+              <span>Amir F.</span>
+            </div>
+            <span class="blog-read" data-en="6 min read" data-fa="۶ دقیقه مطالعه">6 min read</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting">
+        <div class="blog-card-bg" style="background:linear-gradient(135deg,#1a1a0a,#2a2a10);"></div>
+        <div class="blog-card-content">
+          <div class="blog-meta">
+            <span class="blog-cat"  data-en="Design" data-fa="طراحی">Design</span>
+            <span class="blog-date" itemprop="datePublished" datetime="2026-04-12"
+                  data-en="Apr 12, 2026" data-fa="۲۳ فروردین ۱۴۰۵">Apr 12, 2026</span>
+          </div>
+          <h3 class="blog-title font-display" itemprop="headline"
+              data-en="RTL Design: The Complete Guide for Persian &amp; Arabic Websites"
+              data-fa="طراحی RTL: راهنمای کامل برای سایت‌های فارسی و عربی">
+            RTL Design: The Complete Guide for Persian &amp; Arabic Websites
+          </h3>
+          <p class="blog-excerpt" itemprop="description"
+             data-en="Building for RTL languages is more than flipping a direction. Typography, spacing, icons — everything changes."
+             data-fa="ساختن برای زبان‌های راست به چپ بیشتر از تغییر جهت است. تایپوگرافی، فاصله‌گذاری و آیکون‌ها — همه چیز تغییر می‌کند.">
+            Building for RTL languages is more than flipping a direction. Typography, spacing, icons — everything changes.
+          </p>
+          <div class="blog-footer">
+            <div class="blog-author">
+              <div class="blog-avatar">S</div>
+              <span>Sara K.</span>
+            </div>
+            <span class="blog-read" data-en="8 min read" data-fa="۸ دقیقه مطالعه">8 min read</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="blog-card" itemscope itemtype="https://schema.org/BlogPosting">
+        <div class="blog-card-bg" style="background:linear-gradient(135deg,#0a1a10,#102a18);"></div>
+        <div class="blog-card-content">
+          <div class="blog-meta">
+            <span class="blog-cat"  data-en="SEO" data-fa="سئو">SEO</span>
+            <span class="blog-date" itemprop="datePublished" datetime="2026-03-05"
+                  data-en="Mar 5, 2026" data-fa="۱۴ اسفند ۱۴۰۴">Mar 5, 2026</span>
+          </div>
+          <h3 class="blog-title font-display" itemprop="headline"
+              data-en="Core Web Vitals in 2026: What Actually Matters for SEO"
+              data-fa="Core Web Vitals در ۱۴۰۵: چه چیزی واقعاً برای سئو مهم است">
+            Core Web Vitals in 2026: What Actually Matters for SEO
+          </h3>
+          <p class="blog-excerpt" itemprop="description"
+             data-en="Google's ranking signals keep evolving. We break down exactly which metrics move the needle in 2026."
+             data-fa="سیگنال‌های رتبه‌بندی گوگل دائماً تغییر می‌کنند. دقیقاً توضیح می‌دهیم کدام متریک‌ها در ۱۴۰۵ تأثیرگذارند.">
+            Google's ranking signals keep evolving. We break down exactly which metrics move the needle in 2026.
+          </p>
+          <div class="blog-footer">
+            <div class="blog-author">
+              <div class="blog-avatar">M</div>
+              <span>Mehdi R.</span>
+            </div>
+            <span class="blog-read" data-en="5 min read" data-fa="۵ دقیقه مطالعه">5 min read</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       STATS COUNTER
+  ══════════════════════════════════ -->
+  <section id="stats" style="background:var(--dark);border-top:1px solid var(--border);padding:80px 60px;">
+    <div class="stats-row reveal">
+      <div class="stat-big">
+        <span class="stat-big-num" data-target="94">0</span><span class="stat-big-suffix">+</span>
+        <div class="stat-big-label" data-en="Projects Delivered"       data-fa="پروژه تحویل داده شده">Projects Delivered</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-big">
+        <span class="stat-big-num" data-target="97">0</span><span class="stat-big-suffix">%</span>
+        <div class="stat-big-label" data-en="Average Lighthouse Score" data-fa="میانگین امتیاز Lighthouse">Average Lighthouse Score</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-big">
+        <span class="stat-big-num" data-target="7">0</span><span class="stat-big-suffix">+</span>
+        <div class="stat-big-label" data-en="Years of Experience"      data-fa="سال تجربه">Years of Experience</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-big">
+        <span class="stat-big-num" data-target="100">0</span><span class="stat-big-suffix">%</span>
+        <div class="stat-big-label" data-en="Client Satisfaction"      data-fa="رضایت مشتریان">Client Satisfaction</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       FAQ
+  ══════════════════════════════════ -->
+  <section id="faq" style="background:var(--black);border-top:1px solid var(--border);">
+    <div class="faq-layout reveal">
+      <div class="faq-left">
+        <div class="section-eyebrow" data-en="FAQ" data-fa="سوالات متداول">FAQ</div>
+        <h2 class="section-title font-display"
+            data-en="Questions we hear all the time."
+            data-fa="سوال‌هایی که همیشه می‌شنویم.">Questions we hear all the time.</h2>
+        <p class="section-sub"
+           data-en="Can't find your answer? Reach out directly — we reply within 24 hours."
+           data-fa="جواب سوالتان را پیدا نکردید؟ مستقیم تماس بگیرید — ظرف ۲۴ ساعت پاسخ می‌دهیم.">
+          Can't find your answer? Reach out directly — we reply within 24 hours.
+        </p>
+        <a href="#contact" class="btn-primary" style="margin-top:36px;display:inline-block;"
+           data-en="Ask Us Directly" data-fa="مستقیم بپرسید">Ask Us Directly</a>
+      </div>
+
+      <div class="faq-list" id="faqList">
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-q">
+            <span data-en="How long does a website project take?"
+                  data-fa="یک پروژه وب‌سایت چقدر طول می‌کشد؟">How long does a website project take?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-a"
+               data-en="It depends on the scope. A landing page typically takes 1–2 weeks. A full multi-page website takes 3–6 weeks. Complex apps or e-commerce can take 2–4 months. We always give you a clear timeline before starting."
+               data-fa="به حجم کار بستگی دارد. یک لندینگ پیج معمولاً ۱ تا ۲ هفته طول می‌کشد. یک وب‌سایت کامل چندصفحه‌ای ۳ تا ۶ هفته. اپلیکیشن‌های پیچیده یا فروشگاه آنلاین ۲ تا ۴ ماه. همیشه قبل از شروع یک جدول زمانی واضح ارائه می‌دهیم.">
+            It depends on the scope. A landing page typically takes 1–2 weeks. A full multi-page website takes 3–6 weeks. Complex apps or e-commerce can take 2–4 months. We always give you a clear timeline before starting.
+          </div>
+        </div>
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-q">
+            <span data-en="Do you work with clients outside Iran?"
+                  data-fa="آیا با مشتریان خارج از ایران هم کار می‌کنید؟">Do you work with clients outside Iran?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-a"
+               data-en="Absolutely. We work remotely with clients worldwide. All project communication happens via email, Telegram, or video call — whatever works best for you."
+               data-fa="بله. ما به صورت ریموت با مشتریان از سراسر جهان کار می‌کنیم. ارتباطات پروژه از طریق ایمیل، تلگرام یا تماس تصویری انجام می‌شود.">
+            Absolutely. We work remotely with clients worldwide. All project communication happens via email, Telegram, or video call — whatever works best for you.
+          </div>
+        </div>
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-q">
+            <span data-en="How is pricing determined?"
+                  data-fa="قیمت‌گذاری چگونه تعیین می‌شود؟">How is pricing determined?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-a"
+               data-en="We don't have fixed packages because every project is different. Pricing is based on your goals, complexity, timeline, and required features. We discuss everything upfront with full transparency — no surprises."
+               data-fa="پکیج‌های ثابت نداریم چون هر پروژه متفاوت است. قیمت‌گذاری بر اساس اهداف، پیچیدگی، جدول زمانی و ویژگی‌های مورد نیاز انجام می‌شود. همه چیز را از ابتدا با شفافیت کامل بررسی می‌کنیم.">
+            We don't have fixed packages because every project is different. Pricing is based on your goals, complexity, timeline, and required features. We discuss everything upfront with full transparency — no surprises.
+          </div>
+        </div>
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-q">
+            <span data-en="Will my website be mobile-friendly?"
+                  data-fa="آیا سایت من موبایل‌فرندلی خواهد بود؟">Will my website be mobile-friendly?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-a"
+               data-en="Always. Every website we build is fully responsive from the start — not as an afterthought. We test across all major screen sizes and devices before delivery."
+               data-fa="همیشه. هر وب‌سایتی که می‌سازیم از ابتدا کاملاً ریسپانسیو است. قبل از تحویل روی تمام اندازه‌های اصلی صفحه و دستگاه‌ها تست می‌کنیم.">
+            Always. Every website we build is fully responsive from the start — not as an afterthought. We test across all major screen sizes and devices before delivery.
+          </div>
+        </div>
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-q">
+            <span data-en="Do you offer support after launch?"
+                  data-fa="آیا بعد از راه‌اندازی پشتیبانی ارائه می‌دهید؟">Do you offer support after launch?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-a"
+               data-en="Yes. Every project includes 30 days of free support after launch. For ongoing maintenance, updates, and improvements, we offer flexible monthly retainer plans."
+               data-fa="بله. هر پروژه شامل ۳۰ روز پشتیبانی رایگان بعد از راه‌اندازی است. برای نگهداری مداوم، پلن‌های ماهانه انعطاف‌پذیر ارائه می‌دهیم.">
+            Yes. Every project includes 30 days of free support after launch. For ongoing maintenance, updates, and improvements, we offer flexible monthly retainer plans.
+          </div>
+        </div>
+        <div class="faq-item" onclick="toggleFaq(this)">
+          <div class="faq-q">
+            <span data-en="Can you improve my existing website?"
+                  data-fa="آیا می‌توانید سایت موجود من را بهبود بدهید؟">Can you improve my existing website?</span>
+            <span class="faq-icon">+</span>
+          </div>
+          <div class="faq-a"
+               data-en="Yes. We offer performance audits, redesigns, and partial improvements. Whether you need a speed fix, a visual refresh, or a full rebuild — we can help."
+               data-fa="بله. ممیزی عملکرد، طراحی مجدد و بهبودهای جزئی ارائه می‌دهیم. چه نیاز به افزایش سرعت، بازسازی بصری یا بازسازی کامل داشته باشید — می‌توانیم کمک کنیم.">
+            Yes. We offer performance audits, redesigns, and partial improvements. Whether you need a speed fix, a visual refresh, or a full rebuild — we can help.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       PRICING
+  ══════════════════════════════════ -->
+  <section id="pricing" style="background:var(--black);border-top:1px solid var(--border);">
+    <div class="reveal" style="text-align:center;max-width:600px;margin:0 auto 64px;">
+      <div class="section-eyebrow" data-en="Pricing" data-fa="قیمت‌گذاری">Pricing</div>
+      <h2 class="section-title font-display" style="margin:0 auto 16px;"
+          data-en="Transparent. Fair. Negotiable."
+          data-fa="شفاف. منصفانه. توافقی.">Transparent. Fair. Negotiable.</h2>
+      <p class="section-sub" style="margin:0 auto;"
+         data-en="Every project is unique. We price based on your goals, timeline, and scope — not a fixed menu."
+         data-fa="هر پروژه منحصربه‌فرد است. بر اساس اهداف، زمان‌بندی و حجم کار شما قیمت‌گذاری می‌کنیم — نه یک منوی ثابت.">
+        Every project is unique. We price based on your goals, timeline, and scope — not a fixed menu.
+      </p>
+    </div>
+    <div class="pricing-grid reveal">
+      <div class="pricing-card">
+        <div class="pricing-icon">🌱</div>
+        <div class="pricing-name" data-en="Starter"    data-fa="استارتر">Starter</div>
+        <p   class="pricing-desc"
+             data-en="Landing page or small business website. Fast delivery, clean design, mobile-ready."
+             data-fa="لندینگ پیج یا سایت کسب‌وکار کوچک. تحویل سریع، طراحی تمیز، موبایل‌فرندلی.">
+          Landing page or small business website. Fast delivery, clean design, mobile-ready.
+        </p>
+        <div class="pricing-tag" data-en="Negotiable" data-fa="توافقی">Negotiable</div>
+      </div>
+      <div class="pricing-card pricing-card--featured">
+        <div class="pricing-badge" data-en="Most Popular" data-fa="پرطرفدار">Most Popular</div>
+        <div class="pricing-icon">⚡</div>
+        <div class="pricing-name" data-en="Professional" data-fa="حرفه‌ای">Professional</div>
+        <p   class="pricing-desc"
+             data-en="Multi-page website with custom design, animations, SEO, and CMS integration."
+             data-fa="سایت چندصفحه‌ای با طراحی سفارشی، انیمیشن، سئو و اتصال به CMS.">
+          Multi-page website with custom design, animations, SEO, and CMS integration.
+        </p>
+        <div class="pricing-tag" data-en="Negotiable" data-fa="توافقی">Negotiable</div>
+      </div>
+      <div class="pricing-card">
+        <div class="pricing-icon">🚀</div>
+        <div class="pricing-name" data-en="Enterprise"  data-fa="سازمانی">Enterprise</div>
+        <p   class="pricing-desc"
+             data-en="Complex web applications, e-commerce, design systems, or long-term partnerships."
+             data-fa="اپلیکیشن‌های پیچیده، فروشگاه آنلاین، سیستم طراحی یا همکاری بلندمدت.">
+          Complex web applications, e-commerce, design systems, or long-term partnerships.
+        </p>
+        <div class="pricing-tag" data-en="Negotiable" data-fa="توافقی">Negotiable</div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:48px;" class="reveal">
+      <a href="#contact" class="btn-primary"
+         data-en="Get a Free Quote" data-fa="دریافت مشاوره رایگان">Get a Free Quote</a>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       CONTACT
+  ══════════════════════════════════ -->
+  <section id="contact" style="background:var(--dark);border-top:1px solid var(--border);">
+    <div class="contact-layout reveal">
+
+      <!-- Left: info -->
+      <div class="contact-info">
+        <div class="section-eyebrow" data-en="Start a Project" data-fa="شروع یک پروژه">Start a Project</div>
+        <h2 class="section-title font-display"
+            data-en="Let's build something remarkable."
+            data-fa="بیایید چیز شگفت‌انگیزی بسازیم.">Let's build something remarkable.</h2>
+        <p class="section-sub"
+           data-en="Tell us what you're working on. We'll respond within 24 hours with a clear plan and honest timeline."
+           data-fa="به ما بگویید روی چه چیزی کار می‌کنید. ظرف ۲۴ ساعت با یک برنامه واضح پاسخ می‌دهیم.">
+          Tell us what you're working on. We'll respond within 24 hours with a clear plan and honest timeline.
+        </p>
+        <div class="contact-details">
+          <div class="contact-detail-item">
+            <span class="contact-detail-icon">✉</span>
+            <div>
+              <div class="contact-detail-label" data-en="Email"    data-fa="ایمیل">Email</div>
+              <a href="mailto:info@sitemiz.ir" class="contact-detail-value">info@sitemiz.ir</a>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <span class="contact-detail-icon">📞</span>
+            <div>
+              <div class="contact-detail-label" data-en="Phone"    data-fa="تلفن">Phone</div>
+              <a href="tel:+989367091011" class="contact-detail-value" style="direction:ltr;display:inline-block;">09367091011</a>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <span class="contact-detail-icon">📍</span>
+            <div>
+              <div class="contact-detail-label" data-en="Location" data-fa="موقعیت">Location</div>
+              <div class="contact-detail-value"
+                   data-en="Iran — Remote Worldwide"
+                   data-fa="ایران — ریموت سراسر جهان">Iran — Remote Worldwide</div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-socials">
+          <a href="https://t.me/amirf404"            target="_blank" class="social-link" title="Telegram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.16 13.67l-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.834.948l-.846-.059z"/></svg>
+          </a>
+          <a href="https://github.com/amirdev404"    target="_blank" class="social-link" title="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="https://instagram.com/amirdev404" target="_blank" class="social-link" title="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+          </a>
+          <a href="https://linkedin.com/company/sitemiz" target="_blank" class="social-link" title="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: form -->
+      <div class="contact-form-wrap">
+        <div id="formSuccess" class="form-success" style="display:none;">
+          <div class="form-success-icon">✓</div>
+          <h3 class="form-success-title" data-en="Message Sent!" data-fa="پیام ارسال شد!">Message Sent!</h3>
+          <p data-en="We'll be in touch within 24 hours." data-fa="ظرف ۲۴ ساعت با شما در تماس خواهیم بود.">We'll be in touch within 24 hours.</p>
+        </div>
+
+        <div id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" data-en="Your Name *"      data-fa="نام شما *">Your Name *</label>
+              <input type="text"  id="fName"  class="form-input" autocomplete="off">
+              <span  class="form-error" id="errName"></span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" data-en="Email Address *"  data-fa="آدرس ایمیل *">Email Address *</label>
+              <input type="email" id="fEmail" class="form-input" autocomplete="off">
+              <span  class="form-error" id="errEmail"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-en="Project Type" data-fa="نوع پروژه">Project Type</label>
+            <div class="form-chips" id="projectChips">
+              <button class="chip" data-en="Website"       data-fa="وب‌سایت"      onclick="toggleChip(this)">Website</button>
+              <button class="chip" data-en="Web App"       data-fa="اپ وب"        onclick="toggleChip(this)">Web App</button>
+              <button class="chip" data-en="E-commerce"    data-fa="فروشگاه"      onclick="toggleChip(this)">E-commerce</button>
+              <button class="chip" data-en="Design System" data-fa="سیستم طراحی"  onclick="toggleChip(this)">Design System</button>
+              <button class="chip" data-en="Other"         data-fa="سایر"         onclick="toggleChip(this)">Other</button>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-en="Budget Range" data-fa="بازه بودجه">Budget Range</label>
+            <select id="fBudget" class="form-input form-select">
+              <option value=""    data-en="Select a range..."         data-fa="یک بازه انتخاب کنید...">Select a range...</option>
+              <option value="<5k" data-en="Under $5,000"             data-fa="زیر ۵,۰۰۰ دلار">Under $5,000</option>
+              <option value="5-15k"  data-en="$5,000 – $15,000"      data-fa="۵,۰۰۰ – ۱۵,۰۰۰ دلار">$5,000 – $15,000</option>
+              <option value="15-50k" data-en="$15,000 – $50,000"     data-fa="۱۵,۰۰۰ – ۵۰,۰۰۰ دلار">$15,000 – $50,000</option>
+              <option value="50k+"   data-en="$50,000+"              data-fa="۵۰,۰۰۰ دلار+">$50,000+</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" data-en="Tell us about your project *" data-fa="درباره پروژه‌تان بگویید *">Tell us about your project *</label>
+            <textarea id="fMessage" class="form-input form-textarea" rows="5"></textarea>
+            <span class="form-error" id="errMsg"></span>
+          </div>
+
+          <button class="btn-primary form-submit"
+                  onclick="submitForm()"
+                  style="width:100%;padding:18px;font-size:14px;border:none;cursor:none;">
+            <span data-en="Send Message →" data-fa="ارسال پیام ←">Send Message →</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════
+       FOOTER
+  ══════════════════════════════════ -->
+  <footer>
+    <div>
+      <div class="footer-logo">Site<span>miz</span></div>
+      <p class="footer-tagline"
+         data-en="Crafting the web, one pixel at a time."
+         data-fa="ساخت وب، یک پیکسل در یک زمان.">Crafting the web, one pixel at a time.</p>
+    </div>
+
+    <div class="footer-links">
+      <a href="#services"     data-en="Services"  data-fa="خدمات">Services</a>
+      <a href="#portfolio"    data-en="Work"       data-fa="کارها">Work</a>
+      <a href="#blog"         data-en="Blog"       data-fa="بلاگ">Blog</a>
+      <a href="#about"        data-en="About"      data-fa="درباره">About</a>
+      <a href="#contact"      data-en="Contact"    data-fa="تماس">Contact</a>
+    </div>
+
+    <div class="footer-right">
+      <div class="footer-socials">
+        <a href="https://t.me/amirf404"               target="_blank" class="social-link" title="Telegram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.12L7.16 13.67l-2.96-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.537-.194 1.006.131.834.948l-.846-.059z"/></svg>
+        </a>
+        <a href="https://github.com/amirdev404"        target="_blank" class="social-link" title="GitHub">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+        </a>
+        <a href="https://instagram.com/amirdev404"     target="_blank" class="social-link" title="Instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+        </a>
+        <a href="https://linkedin.com/company/sitemiz" target="_blank" class="social-link" title="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+      </div>
+      <div class="footer-copy"
+           data-en="© 2026 Sitemiz. All rights reserved."
+           data-fa="© ۱۴۰۵ Sitemiz. تمام حقوق محفوظ است.">
+        © 2026 Sitemiz. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── JS (deferred for performance) ── -->
+  <script src="main.js" defer></script>
+
+</body>
+</html>
