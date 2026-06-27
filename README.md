@@ -11,7 +11,7 @@
 
 **وب‌سایت دوزبانه (فارسی / انگلیسی) برای استودیو طراحی سایت Sitemiz**
 
-[🌐 Live Demo](https://amirdev404.github.io/SiteMiz/) · [🐙 GitHub](https://github.com/amirdev404/SiteMiz) · [📬 Contact](mailto:info@sitemiz.ir) · [📱 Telegram](https://t.me/amirf404)
+[🌐 Live Demo](https://amirdev404.github.io/SiteMiz/) · [🐙 GitHub](https://github.com/amirdev404) · [📬 Contact](mailto:amirf200282@gmail.com) · [📱 Telegram](https://t.me/amirfa404)
 
 </div>
 
@@ -210,19 +210,19 @@ Valid `data-category` values: `ecommerce` · `saas` · `brand` · `motion`
 
 | Channel | Link |
 |---|---|
-| 📧 Email | [info@sitemiz.ir](mailto:info@sitemiz.ir) |
+| 📧 Email | [info@sitemiz.ir](mailto:amirf200282@gmail.com) |
 | 📞 Phone | [09367091011](tel:+989367091011) |
-| 💬 Telegram | [@amirf404](https://t.me/amirf404) |
-| 🐙 GitHub | [@amirdev404](https://github.com/amirdev404/SiteMiz) |
+| 💬 Telegram | [@amirf404](https://t.me/amirfa404) |
+| 🐙 GitHub | [@amirdev404](https://github.com/amirdev404) |
 | 📸 Instagram | [@amirdev404](https://instagram.com/amirdev404) |
-| 💼 LinkedIn | [Sitemiz](https://linkedin.com/company/sitemiz) |
+| 💼 LinkedIn | [Amir Mohammad Farahani](https://linkedin.com/in/amir-mohammad-farahani) |
 
 ---
 
 ## 📝 License
 
 ```
-MIT License — free to use, modify, and distribute.
+amir-mohammad-farahaniMIT License — free to use, modify, and distribute.
 © 2026 Sitemiz
 ```
 
