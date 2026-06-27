@@ -210,7 +210,7 @@ Valid `data-category` values: `ecommerce` · `saas` · `brand` · `motion`
 
 | Channel | Link |
 |---|---|
-| 📧 Email | [info@sitemiz.ir](mailto:amirf200282@gmail.com) |
+| 📧 Email | [amirdev404@gmail.com](mailto:amirdev404@gmail.com) |
 | 📞 Phone | [09367091011](tel:+989367091011) |
 | 💬 Telegram | [@amirf404](https://t.me/amirfa404) |
 | 🐙 GitHub | [@amirdev404](https://github.com/amirdev404) |
